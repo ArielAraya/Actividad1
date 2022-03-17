@@ -1,0 +1,29 @@
+.divHeader{
+    background-color: #22bb95;
+    border: 2px #22bb95;
+    border-radius: 15px 45px 15px 45px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HeaderTitle{
+    padding: 0px;
+    font-size: 250%;
+    font-family: "bebas neue", cursive;
+}
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 150%;
+}
+
+.divBody{
+    background-color: #24a786;
+    border: 2px #24a786;
+    border-radius: 65px 25px 65px 25px;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
