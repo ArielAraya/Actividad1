@@ -28,11 +28,18 @@
 .title{
     font-family: "bebas neue";
     font-size: 250%;
+    color:#cea520
+}
+
+.titleHeader{
+    font-family: "bebas neue";
+    font-size: 250%;
+    color: #001f07;
 }
 
 .divBody{
     margin-top: 1%;
-    background-color: #116530;
+    background-color: #09381b;
     border-radius: 45px;
     text-align: center;
     padding-bottom: 1%;
