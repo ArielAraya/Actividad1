@@ -11,6 +11,57 @@
     text-align: left;
     font-size: 100%;
 }
+.buttonStyle{
+    background-color: #09381b;
+    text-decoration: none;
+    font-size: 75%;
+    font-family: 'Fredoka', sans-serif;
+    color:#cea520;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 125%;
+}
+
+.buttonStyleInvert{
+    background-color: #cea520;
+    text-decoration: none;
+    font-size: 75%;
+    font-family: 'Fredoka', sans-serif;
+    color:#09381b;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 125%;
+    border-color: #cea520;
+}
+.buttonStyleInvert:visited{
+    background-color: #cea520 !important;
+    text-decoration: none;
+    font-size: 75%;
+    font-family: 'Fredoka', sans-serif;
+    color:#09381b;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 125%;
+    border-color: #cea520;
+}
+.buttonStyleInvert:hover{
+    background-color: #d6b548 !important;
+    text-decoration: none;
+    font-size: 75%;
+    font-family: 'Fredoka', sans-serif;
+    color:#09381b;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 125%;
+    border-color: #d6b548;
+}
+.buttonStyleInvert:active{
+    background-color: #cea520 !important;
+    text-decoration: none;
+    font-size: 75%;
+    font-family: 'Fredoka', sans-serif;
+    color:#09381b;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 125%;
+    border-color: #cea520;
+}
+
 
 .parrafoBody{
     font-family: 'Patrick Hand', cursive;
@@ -28,7 +79,7 @@
 .title{
     font-family: "bebas neue";
     font-size: 250%;
-    color:#cea520
+    color:#cea520;
 }
 
 .titleHeader{
@@ -59,4 +110,27 @@ footer{
 
 body{
     background-color: #001f07;
+}
+
+.input{
+    background-color: #3aad66;
+    border-color: #3aad66;
+    outline: none;
+}
+
+.input::placeholder{
+    color:#09381b;
+}
+
+.input:focus{
+    background-color: #3aad66;
+    border-color: #3aad66;
+    outline: none;
+    color: #001f07;
+}
+
+label{
+    font-family: "bebas neue";
+    font-size: 150%;
+    color: #cea520;
 }
