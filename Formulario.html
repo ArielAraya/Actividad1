@@ -53,13 +53,11 @@
                                 <option value="1">RUT</option>
                                 <option value="2">PASAPORTE</option>
                             </select>
+                            <label for="PhoneNumber">Número de identificación</label>
+                            <input type="text" placeholder="Ingrese su número de identificación" name="IDNumer" class="form-control input">
                             <label for="PhoneNumber">Número de teléfono (opcional)</label>
                             <input type="text" placeholder="Ingrese su número de teléfono" name="PhoneNumber" class="form-control input">
-                            <label for="PlaceResidence">Ciudad de residencia</label>
-                            <input type="text" placeholder="Ingrese su ciudad de residencia" name="PlaceResidence" class="form-control input">
-                            <label for="Commentary">¿Por qué desea participar en la ONG?</label>
-                            <textarea name="Commentary" class="form-control input" rows="4" placeholder="Ingrese su comentario de por qué desea participar"></textarea>
-
+                            
                             <div class="row">
                                 <div class="col-md-2 hidden-sm">
 
@@ -72,7 +70,22 @@
 
                                 </div>
                             </div>
+                            <label for="PlaceResidence">Ciudad de residencia</label>
+                            <input type="text" placeholder="Ingrese su ciudad de residencia" name="PlaceResidence" class="form-control input">
+                            
+                            <div class="row">
+                                <div class="col-md-2 hidden-sm">
 
+                                </div>
+                                <div class="col-md-8 col-sm12">
+                                    <label for="Commentary">¿Por qué desea participar en la ONG?</label>
+                                    <textarea name="Commentary" class="form-control input" rows="4" placeholder="Ingrese su comentario de por qué desea participar"></textarea>
+                                </div>
+                                <div class="col-md-2 hidden-sm">
+
+                                </div>
+                            </div>
+                            
                             <div class="row">
                                 <div class="col-6">
                                     <button class="form-control buttonStyleInvert" type="submit">Enviar Formulario</button>
